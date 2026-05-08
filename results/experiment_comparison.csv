@@ -1,0 +1,5 @@
+Experiment,Hidden Layers,LR,Test Accuracy (%)
+Exp1 - Baseline,"[512, 256]",0.001,97.71
+Exp2 - Deep Model,"[256, 128, 64]",0.001,97.01
+Exp3 - High LR,"[512, 256]",0.01,95.81
+Exp4 - Enhanced,"[512, 256]",0.001,97.63
