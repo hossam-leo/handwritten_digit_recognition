@@ -18,7 +18,7 @@ def main():
     results_dir = "results"
     os.makedirs(results_dir, exist_ok=True)
 
-    # 5. EXPERIMENTS
+    # 3. EXPERIMENTS
     experiments = [
         {"name": "Exp1 - Baseline", "hidden": [512, 256], "lr": 0.001, "dropout": False, "bn": False},
         {"name": "Exp2 - Deep Model", "hidden": [256, 128, 64], "lr": 0.001, "dropout": False, "bn": False},
